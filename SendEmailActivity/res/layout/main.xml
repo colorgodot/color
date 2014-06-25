@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <TextView android:layout_height="wrap_content" android:text="你的邮箱地址"
+        android:layout_width="wrap_content"></TextView>
+	<EditText android:layout_height="wrap_content" android:text="EditText"
+		android:layout_width="match_parent" android:id="@+id/userid"></EditText>
+	</LinearLayout>
+	
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <TextView android:layout_height="wrap_content" android:text="你的邮箱密码"
+       android:layout_width="wrap_content"></TextView>
+	<EditText android:layout_height="wrap_content" android:text="EditText"
+		android:layout_width="match_parent" android:id="@+id/password"></EditText>
+	</LinearLayout>
+	
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <TextView android:layout_height="wrap_content" android:text="From"
+      android:layout_width="wrap_content"></TextView>
+	<EditText android:layout_height="wrap_content" android:text="EditText"
+		android:layout_width="match_parent" android:id="@+id/from"></EditText>
+	</LinearLayout>
+	
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView android:layout_height="wrap_content" android:text="To"
+     android:layout_width="wrap_content"></TextView>
+	<EditText android:layout_height="wrap_content" android:text="EditText"
+		android:layout_width="match_parent" android:id="@+id/to"></EditText>
+	</LinearLayout>
+	
+    <TextView android:layout_height="wrap_content" android:text="标题"
+    android:layout_width="match_parent"></TextView>
+	<EditText android:layout_height="wrap_content" android:text="EditText"
+		android:layout_width="match_parent" android:id="@+id/subject"></EditText>
+	
+    <TextView android:layout_height="wrap_content" android:text="正文"
+    android:layout_width="match_parent"></TextView>   
+	<EditText android:layout_height="wrap_content" android:text="EditText"
+		android:layout_width="match_parent" android:id="@+id/body"></EditText>
+	
+	<Button android:text="Button" android:id="@+id/send"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+</LinearLayout>
