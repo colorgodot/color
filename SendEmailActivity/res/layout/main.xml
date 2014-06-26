@@ -5,45 +5,98 @@
 	
     <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
     android:layout_height="wrap_content">
-    <TextView android:layout_height="wrap_content" android:text="你的邮箱地址"
-        android:layout_width="wrap_content"></TextView>
-	<EditText android:layout_height="wrap_content" android:text="EditText"
-		android:layout_width="match_parent" android:id="@+id/userid"></EditText>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:width="90dp" 
+        android:text="你的邮箱地址"
+        >
+    </TextView>
+	<EditText 
+	    android:layout_height="wrap_content" 
+	    android:layout_width="match_parent" 
+	    android:text="EditText"
+		android:id="@+id/userid"></EditText>
 	</LinearLayout>
 	
     <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
     android:layout_height="wrap_content">
-    <TextView android:layout_height="wrap_content" android:text="你的邮箱密码"
-       android:layout_width="wrap_content"></TextView>
-	<EditText android:layout_height="wrap_content" android:text="EditText"
-		android:layout_width="match_parent" android:id="@+id/password"></EditText>
+    <TextView 
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content"
+        android:width="90dp" 
+        android:text="你的邮箱密码"       
+        >       
+    </TextView>
+	<EditText 
+	    android:layout_height="wrap_content" 
+	    android:layout_width="match_parent" 
+	    android:text="EditText"		
+		android:id="@+id/password"></EditText>
 	</LinearLayout>
 	
     <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
     android:layout_height="wrap_content">
-    <TextView android:layout_height="wrap_content" android:text="From"
-      android:layout_width="wrap_content"></TextView>
-	<EditText android:layout_height="wrap_content" android:text="EditText"
-		android:layout_width="match_parent" android:id="@+id/from"></EditText>
+    <TextView 
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content"
+        android:width="90dp" 
+        android:text="From"
+     >        
+    </TextView>
+	<EditText 
+	    android:layout_height="wrap_content" 
+	    android:layout_width="match_parent" 
+	    android:text="EditText"
+		android:id="@+id/from"></EditText>
 	</LinearLayout>
 	
     <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
-    <TextView android:layout_height="wrap_content" android:text="To"
-     android:layout_width="wrap_content"></TextView>
-	<EditText android:layout_height="wrap_content" android:text="EditText"
-		android:layout_width="match_parent" android:id="@+id/to"></EditText>
+    android:layout_height="wrap_content">
+    <TextView 
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content"
+        android:text="To"
+        android:width="90dp" 
+    >   
+    </TextView>
+	<EditText 
+	    android:layout_height="wrap_content" 
+	    android:layout_width="match_parent" 
+	    android:text="EditText"
+		android:id="@+id/to"></EditText>
 	</LinearLayout>
 	
-    <TextView android:layout_height="wrap_content" android:text="标题"
-    android:layout_width="match_parent"></TextView>
-	<EditText android:layout_height="wrap_content" android:text="EditText"
-		android:layout_width="match_parent" android:id="@+id/subject"></EditText>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <TextView 
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content"
+        android:text="标题"
+        android:width="90dp">        
+    </TextView>
+	<EditText 
+	    android:layout_height="wrap_content" 
+	    android:layout_width="match_parent" 
+	    android:text="EditText"		
+		android:id="@+id/subject">	    
+	</EditText>
+	</LinearLayout>
 	
-    <TextView android:layout_height="wrap_content" android:text="正文"
-    android:layout_width="match_parent"></TextView>   
-	<EditText android:layout_height="wrap_content" android:text="EditText"
-		android:layout_width="match_parent" android:id="@+id/body"></EditText>
+    <TextView 
+        android:layout_height="wrap_content"         
+        android:layout_width="match_parent"        
+        android:text="正文"
+    >
+    </TextView>   
+	<EditText 
+	    android:layout_height="wrap_content" 
+	    android:height="150dp"
+		android:layout_width="match_parent" 
+		android:id="@+id/body"
+		android:text="EditText"
+	>	    
+	</EditText>
 	
 	<Button android:text="Button" android:id="@+id/send"
 		android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>

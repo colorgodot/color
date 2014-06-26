@@ -1,8 +1,6 @@
 package cn.com.bcf.sendemailtest;
 
-import java.util.concurrent.locks.Lock;
 
-import android.R.bool;
 import android.os.Handler;
 import android.os.Message;
 import android.os.SystemClock;
